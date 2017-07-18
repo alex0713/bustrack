@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Community_Garden" id="Community_Garden">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+</Schema>
+<Folder><name>Community_Garden</name>
+  <Style id="parks">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+        </Icon>
+      </IconStyle>
+	  <LabelStyle>
+		<color>ff0000cc</color>
+        <colorMode>random</colorMode>
+        <scale>1</scale>
+	  </LabelStyle>
+  </Style>
+  <Placemark>
+	<name>PAL-Program-Community-Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">537</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3916324,35.6144606</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>IGCC-Youth-Program-Community-Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">538</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3852853,35.6142883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Third-Street-Academy-Community-Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">539</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3794172,35.6160079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Douglas-Ave-Community-Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">540</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3840778,35.6107409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Flemming Street Community Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">541</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3840778,35.6107409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chestnut Street Community Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">542</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3834424,35.6063734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dream Park Community Garden</name>
+	<styleUrl>#parks</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#Community_Garden">
+		<SimpleData name="OBJECTID">543</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3889497,35.6047228</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

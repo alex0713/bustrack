@@ -1,0 +1,51 @@
+{
+	"body": {
+		"-copyright": "All data copyright agencies listed below and East Carolina University.",
+		"agency": [{
+			"-tag": "ecu",
+			"-title": "ECU Tranist",
+			"-regionTitle": "Eastern North Carolina",
+			"-city": "Greenville NC",
+			"-zip": "27834, 27858",
+			"-lat": "35.651794",
+			"-lon": "-77.371527",
+			"-county": "Pitt",
+			"-state": "NC",
+			"-country": "USA",
+			"-temp":"test string"
+		}, {
+			"-tag": "great",
+			"-title": "Greenville Area Transit",
+			"-regionTitle": "Eastern North Carolina",
+			"-city": "Greenville NC",
+			"-zip": "27834, 27858",
+			"-lat": "35.6002282",
+			"-lon": "-77.3834762",
+			"-county": "Pitt",
+			"-state": "NC",
+			"-country": "USA"
+		}, {
+			"-tag": "vmc",
+			"-title": "Vidant Parking Lot Bus",
+			"-regionTitle": "Eastern North Carolina",
+			"-city": "Greenville NC",
+			"-zip": "27834, 27858",
+			"-lat": "35.6095895",
+			"-lon": "-77.4156986",
+			"-county": "Pitt",
+			"-state": "NC",
+			"-country": "USA"
+		}, {
+			"-tag": "PAT",
+			"-title": "Pitt Area Transit",
+			"-regionTitle": "Eastern North Carolina",
+			"-city": "Greenville NC",
+			"-zip": "27834, 27858",
+			"-lat": "35.611467",
+			"-lon": "-77.3986748",
+			"-county": "Pitt",
+			"-state": "NC",
+			"-country": "USA"
+		}]
+	}
+}

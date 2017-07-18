@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ggn.com.locationtracker.tourg.ShowRouteActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/actionbar_whiteback">
+
+
+        <LinearLayout
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Route List"
+                android:textColor="@color/white"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/circle"
+                android:transitionName="toolbar"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+</LinearLayout>
